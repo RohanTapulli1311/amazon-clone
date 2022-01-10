@@ -8,7 +8,8 @@ function ProductScreen(props){
   return (
     <div>
     <div className='back-to-result'>
-        <Link to='/' >Back to Results</Link>
+    <button><Link to='/' >Back to Results</Link></button>
+        
     </div>
     <div className='details'>
         <div className='details-image'>
